@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/index.css" />
+    <title>Menú - Pizzería Fornatta</title>
+  </head>
+  <body class="bg-background">
+
+  
+
+    <header
+      class="relative overflow-auto pt-6 md:pt-10 bg-hero text-white bg-cover bg-center before:content-[''] before:bg-red-950/70 before:w-full before:h-full before:block before:absolute before:z-0 before:top-0"
+    >
+      <div class="relative z-10 w-11/12 mx-auto max-w-7xl">
+        <!-- Menú de navegacion-->
+        <div
+          class="flex flex-wrap items-center justify-center lg:justify-between gap-7"
+        >
+          <h3 class="font-title text-4xl font-semibold">La Fornatta Pizza & Pasta</h3>
+
+          <nav
+            class="flex flex-wrap items-center justify-center gap-7 text-nowrap text-center font-semibold uppercase"
+          >
+            <a href="index.html" class="hover:underline">Inicio</a>
+            <a href="index.html#sucursales" class="hover:underline"
+              >Sucursales</a
+            >
+            <a href="index.html#acerca-de" class="hover:underline">Acerca de</a>
+            <a href="index.html#Contacto" class="hover:underline">Contacto</a>
+          </nav>
+        </div>
+
+         <!--Encabezado -->
+        <div class="my-6 md:my-10 text-center">
+          <h1 class="mb-2 font-title text-3xl md:text-4xl font-bold text-white">
+            Menú
+          </h1>
+        </div>
+
+       
+      </div>
+
+      
+    </header>
+
+    <!--Menu-->
+    <div class="sticky top-0 z-50 mt-2 md:mt-0 flex flex-wrap justify-center gap-5 bg-white py-3 text-center shadow-sm">
+     <a href="#pizzas" class="text-primary border border-black/0  hover:border-primary px-4 py-2 transition">Pizzas</a> 
+     <a href="#hamburgesas" class="text-primary border border-black/0  hover:border-primary px-4 py-2 transition">Hamburgesas</a> 
+     <a href="#entradas" class="text-primary border border-black/0  hover:border-primary px-4 py-2 transition">Entradas</a> 
+     <a href="#ensaldas" class="text-primary border border-black/0  hover:border-primary px-4 py-2 transition">Ensaladas</a> 
+     <a href="#bebidas" class="text-primary border border-black/0  hover:border-primary px-4 py-2 transition">Bebidas</a> 
+     <a href="#postres" class="text-primary border border-black/0  hover:border-primary px-4 py-2 transition">Postres</a> 
+    </div>
+
+    <main class="mt-12">
+      <div id="page" class="opacity-0 translate-y-6 transition-all duration-700 ease-out">
+
+      <!-- Sección Pizzas -->
+      <section class="w-11/12 max-w-7xl mx-auto mb-20 scroll-mt-28 md:scroll-mt-20" id="pizzas">
+        <!--Encabezado -->
+        <div class="mb-14 text-center">
+          <h2 class="mb-4 font-title text-4xl font-bold text-primary">
+            Pizzas
+          </h2>
+          <p class="text-lg text-black">Algunas de nuestras mejores pizzas</p>
+        </div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/pizza-1.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Peperoni
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$8990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Mediana</p>
+                <p>$9990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$12990</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/pizza-2.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Napolitana
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$8990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Mediana</p>
+                <p>$9990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$12990</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/pizza-3.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Vegetariana
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$8990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Mediana</p>
+                <p>$9990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$12990</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/pizza-4.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Cuatro Quesos
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$8990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Mediana</p>
+                <p>$9990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$12990</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!--Sección Hamburgesa-->
+      <section class="w-11/12 max-w-7xl mx-auto mb-20 scroll-mt-28 md:scroll-mt-20" id="hamburgesas">
+        <!--Encabezado -->
+        <div class="mb-14 text-center">
+          <h2 class="mb-4 font-title text-4xl font-bold text-primary">
+            Hamburguesas
+          </h2>
+          <p class="text-lg text-black">Algunas de nuestras mejores hamburguesas</p>
+        </div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/hamburguesa-1.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Hamburguesa Doble Carne
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$9990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$12990</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/hamburguesa-2.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Hamburguesa Chacarero
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$8990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$12990</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/hamburguesa-3.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Hamburguesa con Tocino
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$8990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$12990</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/hamburguesa-4.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Hamburguesa Pilmalquen
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$8990</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$12990</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!--Sección Bebidas-->
+      <section class="w-11/12 max-w-7xl mx-auto mb-20 scroll-mt-28 md:scroll-mt-20" id="bebidas">
+        <!--Encabezado -->
+        <div class="mb-14 text-center">
+          <h2 class="mb-4 font-title text-4xl font-bold text-primary">
+            Bebidas
+          </h2>
+          <p class="text-lg text-black">Algunas de nuestras mejores Bebidas</p>
+        </div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/bebida-1.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Pepsi Zero
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$1500</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$2000</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/bebida-2.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Bebida Soul - Piña
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$3500</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$5000</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/bebida-3.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Nectar de frutilla Natural
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$2000</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$3000</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="mb-5 bg-white shadow-xs">
+            <!-- thumb -->
+            <div class="aspect-square">
+              <img class="h-auto w-full" src="./img/menu/bebida-4.png" alt="" />
+            </div>
+            <!-- Precios -->
+            <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">
+                Mango Soul
+              </h3>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Pequeña</p>
+                <p>$3500</p>
+              </div>
+              <div
+                class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base"
+              >
+                <p>Grande</p>
+                <p>$5000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      </div> 
+
+    </main>
+
+    <footer class="bg-primary p-3 text-center text-sm text-white">
+      <p>
+        © 2026 Pizzería La Fornatta. Todos los derechos reservados.<br />
+        Desarrollado por
+        <a
+          href="https://carloslozanodev.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="!text-blue-500 hover:!text-blue-400 hover:underline"
+        >
+          carloslozanodev.com
+        </a>
+      </p>
+    </footer>
+
+
+
+  <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
