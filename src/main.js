@@ -1,3 +1,5 @@
+import './index.css'
+
 window.addEventListener("DOMContentLoaded", () => {
   const page = document.getElementById("page");
 
